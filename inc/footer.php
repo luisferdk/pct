@@ -13,7 +13,7 @@
         <a href="/guarantee/" class="mt-1 link">Read More</a>
       </div>
       <div class="col-md-4 col-12">
-        <a href="tel:+18298681353" style="margin:auto;"><img class="img-fluid" style="margin:auto;" src="//cdtoen-caribbeandream.netdna-ssl.com/assets/call-dr-tours.png" alt="Call 1-829-868-1353 Today" /></a>
+        <a href="tel:+18298681353" style="margin:auto;"><img class="img-fluid" style="margin:auto;" src="/img/call-dr-tours.png" alt="Call 1-829-868-1353 Today" /></a>
           <!-- <div class="col-12 mt-3">
             <img class="m-auto img-fluid" src="https://puntacanatours.com/img/credit-cards.png" alt="Paypal Visa Credit Card">
           </div> -->

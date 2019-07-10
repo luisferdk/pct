@@ -8,7 +8,7 @@
     <a href="https://www.tripadvisor.com/Attraction_Review-g147293-d2073653-Reviews-Caribbean_Dream_Tours-Punta_Cana_La_Altagracia_Province_Dominican_Republic.html"><img style="display:block; max-width:165px; margin-left:auto; margin-right:auto" src="https://puntacanatours.com/images/tripadvisor.png" alt="TripAdvisor" title="Read our Reviews"/></a>
   </div>
   <div class="well-small">
-    <span itemprop="telephone"><a href="tel:+18298681353"><img style="display:block; margin-left:auto; margin-right:auto" src="//cdtoen-caribbeandream.netdna-ssl.com/assets/call-dr-tours.png" alt="Call 1-829-868-1353 Today" /></a></span>
+    <span itemprop="telephone"><a href="tel:+18298681353"><img style="display:block; margin-left:auto; margin-right:auto" src="/img/call-dr-tours.png" alt="Call 1-829-868-1353 Today" /></a></span>
   </div>
 
   <div class="well-small">

@@ -231,7 +231,7 @@ box-shadow: none !important;
     <a href="https://www.facebook.com/PuntaCanaTours?v=app_254084314702229"><img style="display:block; margin-left:auto; margin-right:auto" src="//puntacanatours-caribbeandream.netdna-ssl.com/img/tripadvisor.jpg" alt="TripAdvisor" title="Read our Reviews"/></a>
   </div>
   <div class="well-small">
-    <span itemprop="telephone"><a href="tel:+18095526862"><img style="display:block; margin-left:auto; margin-right:auto" src="//cdtoen-caribbeandream.netdna-ssl.com/assets/call-dr-tours.png" alt="Call 1-829 961-4829 Today" /></a></span>
+    <span itemprop="telephone"><a href="tel:+18095526862"><img style="display:block; margin-left:auto; margin-right:auto" src="/img/call-dr-tours.png" alt="Call 1-829 961-4829 Today" /></a></span>
   </div>
 
   <div class="well-small">

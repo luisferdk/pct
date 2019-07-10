@@ -63,7 +63,7 @@ if($saved > 0)
     <a href=""><img style="display:block; margin-left:auto; margin-right:auto" src="//puntacanatours-caribbeandream.netdna-ssl.com/img/secure-payment.png" alt="SSL Secure Payment" /></a>
   </div>
   <div class="well-small">
-    <span itemprop="telephone"><a href="tel:+18095526862"><img style="display:block; margin-left:auto; margin-right:auto" src="//cdtoen-caribbeandream.netdna-ssl.com/assets/call-dr-tours.png" alt="Call 1-829 961-4829 Today" /></a></span>
+    <span itemprop="telephone"><a href="tel:+18095526862"><img style="display:block; margin-left:auto; margin-right:auto" src="/img/call-dr-tours.png" alt="Call 1-829 961-4829 Today" /></a></span>
   </div> 
   <div class="well-small" style="text-align:center">
       <img src="//puntacanatours-caribbeandream.netdna-ssl.com/img/truste-verified.png" alt="Privacy and Trust Verified" />
