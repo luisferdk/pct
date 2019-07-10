@@ -1,0 +1,30 @@
+	
+	
+  <div class="row">
+    <div class="span12">
+      <section class="main_body">
+		  
+		  
+        <div id="myCarousel" class="carousel slide">
+        
+          <!-- Carousel items -->
+          <div class="carousel-inner">
+            <div class="item"><a href=""><img src="//puntacanatours-caribbeandream.netdna-ssl.com/img/Dominican-Republic-Excursion.jpg" alt="Monster Truck Excursion" /></a></div>
+            <div class="item active"><a href="/winter-baseball/"><img src="//puntacanatours-caribbeandream.netdna-ssl.com/img/Winter-Baseball.jpg" alt="Winter Baseball League" /></a></div>
+            <div class="item"><a href=""><img src="//puntacanatours-caribbeandream.netdna-ssl.com/img/Samana-Tour.jpg" alt="Cayo Laventado Samana" /></a></div>
+           <!-- <div class="item"><iframe id="player" name="Caribbean Dream" frameborder="0" allowfullscreen="1" title="YouTube video player" width="960" height="340" src="https://www.youtube.com/embed/EO_X78QJ2vg?enablejsapi=1&amp;origin=http%3A%2F%2Fpuntacanatours.com"></iframe></div> -->
+           
+            <!--
+            <div class="item"><a href=""><img src="//puntacanatours-caribbeandream.netdna-ssl.com/img/Dominican-Carnaval.jpg" alt="Dominican Republic Canaval" /></a></div>
+            <div class="item"><a href=""><img src="//puntacanatours-caribbeandream.netdna-ssl.com/img/Hoyo-Azul.jpg" alt="Hoyo Azul Cap Cana" /></a></div>
+            -->
+          </div><!--/carousel-inner-->
+          <!-- Carousel nav -->
+          <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+          <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+        </div><!--/myCarousel-->
+		
+		
+      </section><!--/main_body-->
+    </div><!--/span12-->
+  </div><!--/row-->

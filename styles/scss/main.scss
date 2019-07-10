@@ -1,0 +1,209 @@
+$primary: #c9302c !default;
+$success: #d9534f !default;
+$warning: #eb9316 !default;
+
+@import 'node_modules/bootstrap/scss/bootstrap.scss';
+@import 'node_modules/bootstrap/scss/variables.scss';
+
+.black{
+  color:black;
+}
+.breadcrumb-item.active{
+  color: $primary !important;
+}
+a{
+  color:#0088cc;
+  cursor: pointer;
+}
+.btn-link{
+  text-decoration: underline;
+}
+.btn-warning{
+  color:white;
+}
+#menu{
+  border-top: 2px solid $primary;
+  border-bottom: 2px solid $primary;
+  margin-left: 1em;
+  .nav-item{
+    padding:5px 15px;
+    //border-left: 1px solid $primary;
+    text-align: center;
+    min-width: 120px !important;
+    .nav-link{
+      color: black;
+    }
+    &.active,
+    &:hover{
+      background: $primary;
+      .nav-link{
+        color:white;
+      }
+    }
+  }
+}
+#carrito{
+  height: 50px;
+  border-radius: inherit;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.horario {
+  background: $success;
+  color: white;
+  >div {
+    padding: .5em 0;
+  }
+}
+.imagen{
+  height: 400px !important;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.booknow{
+  .card{
+    border:1px solid $primary;
+  }
+  .card-header{
+    background: $primary;
+    color:white;
+  }
+}
+
+.tour{
+  height: 400px;
+  margin-bottom: .5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  img{
+    position: absolute;
+  }
+  .fondo{
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background: rgba(0,0,0,.25);
+  }
+  .tour-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    *{
+      margin:0;
+      text-align: center;
+      text-shadow: 1px 1px 1px white;
+    }
+    .btn{
+      margin-top: 10px;
+    }
+    position: relative;
+    color:white;
+  }
+}
+
+.excursions{
+  .card{
+    border:none;
+    .card-header{
+      border:1px solid $warning;
+      background: none;
+      color: $warning;
+      margin:0;
+      padding:10px 0;
+    }
+    .card-body{
+      height: 250px;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      overflow: hidden;
+      img{
+        position: absolute;
+        min-height: 100%;
+        min-width: 100%;
+      }
+    }
+    .card-footer{
+      background: none;
+      border:none;
+    }
+  }
+}
+
+
+footer{
+  border-top: 4px solid $primary;
+  margin-top: 2em;
+  padding:2em;
+  .texto{
+    font-size: 1em;
+    line-height: 1.5em;
+    overflow: hidden;
+    height: 4.5em;
+  }
+}
+
+.slider-book{
+  align-items: center;
+  .slider{
+    @include media-breakpoint-down(xs) {
+      display: none;
+    }
+  }
+}
+
+.sellos{
+  z-index: 2;
+  position: fixed;
+  bottom:0;
+  left:0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  img{
+    position: relative;
+    width: 100px;
+    margin-top: .5em;
+  }
+}
+.video-container iframe{
+  margin:auto;
+}
+.row-fluid{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.span1 { width:5.583333333333333%; }
+.span2 { width:14.16666666666667%; }
+.span3 { width:22.75%; }
+.span4 { width:31.33333333333333%; }
+.span5 { width:39.91666666666667%; }
+.span6 { width:48.5%; }
+.span7 { width:57.08333333333333%; }
+.span8 { width:65.66666666666666%; }
+.span9 { width:74.25%; }
+.span10 { width:82.83333333333333%; }
+.span11 { width:91.41666666666666%; }
+.span12 { width:100%; }
+
+.chosen-select{
+  @extend .form-control;
+}
