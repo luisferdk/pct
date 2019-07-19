@@ -14,8 +14,8 @@ if($dev_test) {
 }
 else {
 	$dbHost = 'localhost';
-	$dbUser = 'pctours_web';
-	$dbPass = 'DokTUocQWeAJ';
+	$dbUser = 'admin';
+	$dbPass = 'admin';
 	$dbName = 'pctours_web';
 }
 
@@ -27,8 +27,7 @@ $show_products_new = 0;
 if(isset($_GET["prodnew"]))
    $show_products_new = $_GET["prodnew"];
 
-$dbConn = mysql_connect ($dbHost, $dbUser, $dbPass) or die ('MySQL connect failed. ' . mysql_error());
-mysql_select_db($dbName) or die('Cannot select database. ' . mysql_error());
+$dbConn = mysqli_connect ($dbHost,$dbUser,$dbPass,$dbName) or die ('MySQL connect failed. ' . mysqli_error());
 
 // setting up the web root and server root for
 // this shopping cart application
@@ -76,8 +75,8 @@ function embedProducts($t_id, $link_url)
 	$eProducts = array();
 	
 	$epsql = "SELECT * FROM $productsToursTable JOIN $productsTable ON $productsToursTable.p_id = $productsTable.p_id WHERE $productsToursTable.t_id = $t_id";
-	$epres = mysql_query($epsql) or die(mysql_error());
-	while($eprow = MYSQL_FETCH_ARRAY($epres))
+	$epres = mysqli_query($epsql) or die(mysqli_error());
+	while($eprow = MYSQLi_FETCH_ARRAY($epres))
 	{
 		$curProduct = array();
 		$curProduct["product_id"] = $eprow['p_id'];
@@ -227,11 +226,11 @@ function embedProductsNew($t_id, $link_url)
 	$eProducts = array();
 	
 	$epsql = "SELECT * FROM $productsToursTable JOIN $productsTable ON $productsToursTable.p_id = $productsTable.p_id WHERE $productsToursTable.t_id = $t_id";
-	$epres = mysql_query($epsql) or die(mysql_error());
+	$epres = mysqli_query($epsql) or die(mysqli_error());
 	$cdashed = array("#000099", "#000099");
 	$icdeshed = 0;
 
-	while($eprow = MYSQL_FETCH_ARRAY($epres))
+	while($eprow = MYSQLi_FETCH_ARRAY($epres))
 	{
 		$curProduct = array();
 		$curProduct["product_id"] = $eprow['p_id'];
@@ -452,9 +451,9 @@ EOT;
 function showHotelPicker($name, $p_id = 0) {
 	// Find Modified Values
 	$sql = "SELECT * FROM hotels_products WHERE p_id = '$p_id'";
-	$res = mysql_query($sql) or die(mysql_error());
+	$res = mysqli_query($sql) or die(mysqli_error());
 	$mods = array();
-	while ($row = mysql_fetch_assoc($res))
+	while ($row = mysqli_fetch_assoc($res))
     {
 		$mods[$row["h_id"]] = $row;
 	}
@@ -463,10 +462,10 @@ function showHotelPicker($name, $p_id = 0) {
             echo "<option value=\"\"></option>";
 			
     $sql = "select * FROM hotels ORDER BY hotel_position ASC";
-    $res = mysql_query($sql) or die(mysql_error());
+    $res = mysqli_query($sql) or die(mysqli_error());
     $group = array();
     $str = "";
-    while ($row = mysql_fetch_assoc($res))
+    while ($row = mysqli_fetch_assoc($res))
     {
       $group[$row['hotel_location']][] = $row;
     }
@@ -604,7 +603,7 @@ function clean($str) {
 	if(get_magic_quotes_gpc()) {
 		$str = stripslashes($str);
 	}
-	return mysql_real_escape_string($str);
+	return mysqli_real_escape_string($str);
 }
 
 ?>

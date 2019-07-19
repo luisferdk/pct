@@ -1,0 +1,74 @@
+RewriteEngine On
+RewriteBase /
+
+#RewriteCond %{SERVER_PORT} ^443$
+#RewriteRule !^(checkout2.php|checkout3.php|checkout4.php|checkout4pp.php|checkout-pp-ok.php|checkout-pp-cancel.php) http://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+RewriteCond %{HTTP_HOST} ^www\.puntacanatours\.com$ [NC]
+RewriteRule (.*) https://puntacanatours.com/$1 [R=301,L]
+
+RewriteCond %{HTTPS} off
+#RewriteRule ^(checkout2.php|checkout3.php|checkout4.php|checkout4pp.php|checkout-pp-ok.php|checkout-pp-cancel.php) https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+RewriteRule ^excursions/?(.+)/?$ excursions.php [L]
+RewriteRule ^combos/?(.+)/?$ combos.php [L]
+RewriteRule ^cancellation-policy/?(.+)/?$ cancellation-policy.php [L]
+RewriteRule ^guarantee/?(.+)/?$ guarantee.php [L]
+RewriteRule ^about-us/?(.+)/?$ about-us.php [L]
+RewriteRule ^why-us/?(.+)/?$ why-choose-us.php [L]
+RewriteRule ^transportation/?(.+)/?$ transportation.php [L]
+RewriteRule ^reviews/img/(.*)$ /img/$1 [L]
+RewriteRule ^reviews/?(.+)/?$ reviews.php [L]
+RewriteRule ^contact/?(.+)/?$ contact.php [L]
+RewriteRule ^sitemap/?(.+)/?$ sitemap.php [L]
+RewriteRule ^team/?(.+)/?$ team.php [L]
+RewriteRule ^dolphin-comparison/?(.+)/?$ dolphin-comparison.php [L]
+
+#RewriteRule ^jeep-safari-new$ index2.php/jeep-safari/ [L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.+)$ index.php/$i [L,QSA]
+
+## EXPIRES CACHING ##
+<IfModule mod_expires.c>
+ExpiresActive On
+ExpiresByType image/gif "access 1 year"
+ExpiresByType image/jpeg "access 1 year"
+ExpiresByType image/jpg "access 1 year"
+ExpiresByType image/png "access 1 year"
+ExpiresByType image/x-icon "access 1 year"
+ExpiresByType text/css "access 1 week"
+ExpiresByType text/x-javascript "access 1 week"
+ExpiresByType application/x-shockwave-flash "access 1 month"
+ExpiresDefault "access 1 week"
+#
+<FilesMatch "\.(jpe?g¦png¦ico¦css¦js¦swf)$">
+Header set Cache-Control "public"
+</FilesMatch>
+
+</IfModule>
+## EXPIRES CACHING ##
+
+#Gzip
+<ifmodule mod_deflate.c>
+AddOutputFilterByType DEFLATE text/text text/html text/plain text/xml text/css application/x-javascript application/javascript text/javascript
+</ifmodule>
+#End Gzip
+
+# Used by MaxCDN and Vary: Accept-Encoding 
+<IfModule mod_headers.c>
+  <FilesMatch ".(js|css|xml|gz|html)$">
+    Header append Vary: Accept-Encoding
+  </FilesMatch>
+</IfModule>
+# END Vary: Accept-Encoding 
+
+
+#Required for ActiveHelper
+#<IfModule mod_security.c>
+#SecFilterEngine Off
+#SecFilterScanPOST Off
+#</IfModule>
+#End ActiveHelper

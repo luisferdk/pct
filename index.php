@@ -701,13 +701,13 @@ if (sizeof($uri) > 1 && !empty($uri[1])) {
       <h1 class="col-12">Top 3 Excursions</h1>
       <div class="col-12 col-md-4">
         <div class="thumbnail">
-          <div class="center_it"><a href="/scapepark//"><img
-                src="<?php echo constant("PRODUCT_IMAGE_DIR"); ?>scapepark-zipline/zip-line-punta-cana.jpg"
-                alt="Hoyo Azul ScapePark" /></a></div>
+          <div class="center_it"><a href="/juanillo-VIP-es/"><img
+                src="<?php echo constant("PRODUCT_IMAGE_DIR"); ?>juanillo-vip-puntacana/juanillo008.jpg"
+                alt="Juanillo VIP" /></a></div>
           <div class="caption">
-            <h4>Scape Park</h4>
-            <p>Hoyo Azul &amp; more...</p>
-            <p><a href="/scapepark/" class="btn btn-block btn-danger">Details</a></p>
+            <h4>Juanillo VIP</h4>
+            <p>Enjoy a full day in the paradise of Cap Cana!</p>
+            <p><a href="/juanillo-VIP-es/" class="btn btn-block btn-danger">Details</a></p>
           </div>
           <!--/center_it-->
         </div>
@@ -717,13 +717,13 @@ if (sizeof($uri) > 1 && !empty($uri[1])) {
 
       <div class="col-12 col-md-4">
         <div class="thumbnail">
-          <div class="center_it"><a href="/macao-buggies/"><img
-                src="<?php echo constant("PRODUCT_IMAGE_DIR"); ?>macao-buggies/offroad-buggies.jpg" alt="Macao Buggies" /></a>
+          <div class="center_it"><a href="/jeep-safari/"><img
+                src="<?php echo constant("PRODUCT_IMAGE_DIR"); ?>jeep-safari/jeep%20(9).jpg" alt="Jeep Safari" /></a>
           </div>
           <div class="caption">
-            <h4>Macao Buggies</h4>
-            <p>Go Offroading!</p>
-            <p><a href="/macao-buggies/" class="btn btn-block btn-danger">Details</a></p>
+            <h4>Jeep Safari</h4>
+            <p>Leave the resort-lined beaches of Punta Cana</p>
+            <p><a href="/jeep-safari/" class="btn btn-block btn-danger">Details</a></p>
           </div>
           <!--/center_it-->
         </div>
@@ -733,13 +733,13 @@ if (sizeof($uri) > 1 && !empty($uri[1])) {
 
       <div class="col-12 col-md-4">
         <div class="thumbnail">
-          <div class="center_it"><a href="/4-wheel-adventure/"><img
-                src="<?php echo constant("PRODUCT_IMAGE_DIR"); ?>4-wheel-adventure/4x4-atv.jpg"
-                alt="4WD Offroad Adventure" /></a></div>
+          <div class="center_it"><a href="/imagen-disco-caribbeandream/"><img
+                src="<?php echo constant("PRODUCT_IMAGE_DIR"); ?>imagine-disco-caribbeandream-flow/imagine%20(10)-sm.jpg"
+                alt="Imagine Disco" /></a></div>
           <div class="caption">
-            <h4>4 Wheel Adventure </h4>
-            <p>ATV's ROCK!</p>
-            <p><a href="/4-wheel-adventure/" class="btn btn-block btn-danger">Details</a></p>
+            <h4>Imagine Disco</h4>
+            <p>Which is known as the "The Cave"</p>
+            <p><a href="/imagen-disco-caribbeandream/" class="btn btn-block btn-danger">Details</a></p>
           </div>
           <!--/center_it-->
         </div>
