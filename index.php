@@ -768,21 +768,21 @@ if (sizeof($uri) > 1 && !empty($uri[1])) {
       </div>
       <div class="col-12 col-md-4">
         <div class="thumbnail">
-          <div class="center_it"><a href="/horseback-riding/"><img src="<?php echo constant("PRODUCT_IMAGE_DIR"); ?>horseback-riding/horseback-riding-3.jpg" alt="Beach Horseback Riding" /></a></div>
+          <div class="center_it"><a href="/SlingShot-cana-com/"><img src="<?php echo constant("PRODUCT_IMAGE_DIR"); ?>SLINGSHOT-GELLERIES-COM-G/slingshot002.jpg" alt="Slingshots" /></a></div>
           <div class="caption">
-            <h4>Horseback Riding</h4>
-            <p>Now, Horseback Riding on the Beach!</p>
-            <p><a href="/horseback-riding/" class="btn btn-block btn-danger">Details</a></p>
+            <h4>Slingshots</h4>
+            <p>eaving the Hard Rock Hotel Punta Cana</p>
+            <p><a href="/SlingShot-cana-com/" class="btn btn-block btn-danger">Details</a></p>
           </div>
         </div>
       </div>
       <div class="col-12 col-md-4">
         <div class="thumbnail">
-          <div class="center_it"><a href="/saona-island/"><img src="<?php echo constant("PRODUCT_IMAGE_DIR"); ?>saona-island/saona-island-1.jpg" alt="Saona island excursion" /></a></div>
+          <div class="center_it"><a href="/catamaran-sailing/"><img src="<?php echo constant("PRODUCT_IMAGE_DIR"); ?>catamaran-cruise-point/tourspoint%20(1).jpg" alt="Catamaran Cruise" /></a></div>
           <div class="caption">
-            <h4>Saona Island</h4>
-            <p>Sun, Sand & A Drink In Your Hand!</p>
-            <p><a href="/saona-island/" class="btn btn-block btn-danger">Details</a></p>
+            <h4>Catamaran Cruise</h4>
+            <p>Do you know the #1 thing visitors in Punta Cana</p>
+            <p><a href="/catamaran-sailing/" class="btn btn-block btn-danger">Details</a></p>
           </div>
         </div>
       </div>
@@ -814,13 +814,13 @@ if (sizeof($uri) > 1 && !empty($uri[1])) {
                   <div class="item">
                     <div class="thumbnail">
                       <div class="center_it">
-                        <a href="/supercombo-buggies-horseback-riding/">
+                        <a href="/supercombo-buggies-SlingShot-cana-com/">
                           <img style="width:100%;" src="//cdto.net/assets/thumbnails/combo002.jpg" alt="Combo Buggies + Horseback riding" title="Combo Buggies + Horseback riding">
                         </a>
                       </div>
                       <div class="caption">
                         <h4>Buggies + Horseback riding</h4>
-                        <p><a href="/supercombo-buggies-horseback-riding/" class="btn btn-block btn-danger">Book Now</a>
+                        <p><a href="/supercombo-buggies-SlingShot-cana-com/" class="btn btn-block btn-danger">Book Now</a>
                         </p>
                       </div>
                       <!--/center_it-->
