@@ -1112,7 +1112,7 @@ iframe {
   opacity: 0.6;
 }
 .marca img {
-  height: 100vh;
+  height: 50vh;
 }
 .thumbnail {
   margin-bottom: 2em;
@@ -1625,4 +1625,8 @@ footer .footer-links a:hover {
     transform: scale(2);
     opacity: 0;
   }
+}
+
+.idioma img{
+  border: 2px solid white;
 }

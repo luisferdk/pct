@@ -1,10 +1,13 @@
-<header class="row-fluid header-2">
-  <div class="span12 text-center">
+<header class="row-fluid header-2" style="display:flex;align-items:center;justify-content:center;">
+  <div class="col-10 text-center">
     <strong><i class="fa fa-phone-square"></i> CALL US NOW! <br></strong>
-    <span>TOLL FREE FROM USA & CANADA 844-DR-TOURS DOMINICAN REPUBLIC & OTHER COUNTRIES 829 961-4829
+    <span class="visible-lg">TOLL FREE FROM USA & CANADA 844-DR-TOURS DOMINICAN REPUBLIC & OTHER COUNTRIES 829 961-4829</span>
+    <span class="hide-lg">844-DR-TOURS <br> 829 961-4829</span>
   </div>
+  <a class="idioma" href="https://puntacanatours.es">
+    <img src="/img/spain.png" alt="">
+  </a>
 </header>
-
 <div class="navbar hide-lg">
   <div class="navbar-inner">
     <div class="container">
@@ -16,11 +19,6 @@
         <span class="icon-bar"></span>
       </a>
       <ul class="nav pull-right">
-        <li>
-          <a href="https://puntacanatours.es">
-            <img src="/img/spain.png" alt="">
-          </a>
-        </li>
         <li class="dropdown">
           <a href="/checkout.php" class="dropdown-toggle carrito" data-toggle="dropdown">
             <i class="fa fa-shopping-cart"></i>
@@ -89,11 +87,6 @@
           <li><a href="/reviews/">Reviews</a></li>
           <li><a href="/contact/">Contact</a></li>
           <li><a href="/excursions/combos/">Combos</a></li>
-          <li>
-            <a href="/excursions/combos/">
-              <img src="/img/spain.png" alt="">
-            </a>
-          </li>
         </ul>
       </div>
  
@@ -140,11 +133,6 @@
         <li><a href="/reviews/">Reviews</a></li>
         <li><a href="/contact/">Contact</a></li>
         <li><a href="/excursions/combos/">Combos</a></li>
-        <li>
-          <a href="https://puntacanatours.es">
-            <img src="/img/spain.png" alt="">
-          </a>
-        </li>
       </ul>
       <div class="brand">
         <ul class="nav pull-right">

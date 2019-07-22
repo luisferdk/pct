@@ -20,7 +20,7 @@
   -->
   <link href='//puntacanatours-caribbeandream.netdna-ssl.com/css/combined.css' rel='stylesheet'>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link href='/css/pct.css?v=12' rel='stylesheet'>
+  <link href='/css/pct.css?v=13' rel='stylesheet'>
   <link href="//puntacanatours-caribbeandream.netdna-ssl.com/styles/owl/dist/assets/owl.carousel.min.css" rel="stylesheet">
   <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
     <!-- IE6-8 support of HTML5 elements hello-->
