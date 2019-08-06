@@ -174,7 +174,7 @@ if (sizeof($uri) > 1 && !empty($uri[1])) {
     <link rel="alternate" href="http://puntacanatours.com<?php echo $_SERVER['REQUEST_URI']; ?>" hreflang="en-do" />
     <link rel="alternate" href="http://puntacanatours.com<?php echo $_SERVER['REQUEST_URI']; ?>" hreflang="x-default" />
     <link href="/css/compress.min.css?v=6" rel="stylesheet">
-    <link href="/css/pct.css?v=13" rel="stylesheet">
+    <link href="/css/pct.css?v=12" rel="stylesheet">
     <!--[if lt IE 9]>
           <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
@@ -701,50 +701,55 @@ if (sizeof($uri) > 1 && !empty($uri[1])) {
       <h1 class="col-12">Top 3 Excursions</h1>
       <div class="col-12 col-md-4">
         <div class="thumbnail">
-          <div class="center_it"><a href="/juanillo-VIP-es/"><img
-                src="<?php echo constant("PRODUCT_IMAGE_DIR"); ?>juanillo-vip-puntacana/juanillo008.jpg"
-                alt="Juanillo VIP" /></a></div>
-          <div class="caption">
-            <h4>Juanillo VIP</h4>
-            <p>Enjoy a full day in the paradise of Cap Cana!</p>
-            <p><a href="/juanillo-VIP-es/" class="btn btn-block btn-danger">Details</a></p>
+          <div class="center_it">
+            <a href="/saona-island/">
+              <div style="width:100%;height:300px;display:flex;align-items:center;">
+                <img style="min-width:100%;min-height:300px;" src="<?php echo constant("PRODUCT_IMAGE_DIR"); ?>saona-island/saona-island-10.jpg" alt="Saona Island" />
+              </div>
+            </a>
           </div>
-          <!--/center_it-->
+          <div class="caption">
+            <h4>Saona Island</h4>
+            <p>The Caribbean Sea, waist-deep sandbar!</p>
+            <p><a href="/saona-island/" class="btn btn-block btn-danger">Details</a></p>
+          </div>
         </div>
-        <!--/thumbnail-->
       </div>
-      <!--/span4-->
 
       <div class="col-12 col-md-4">
         <div class="thumbnail">
-          <div class="center_it"><a href="/jeep-safari/"><img
-                src="<?php echo constant("PRODUCT_IMAGE_DIR"); ?>jeep-safari/jeep%20(9).jpg" alt="Jeep Safari" /></a>
+          <div class="center_it">
+            <a href="/macao-buggies/">
+              <div style="width:100%;height:300px;display:flex;align-items:center;">
+                <img style="min-width:100%;min-height:300px;" src="<?php echo constant("PRODUCT_IMAGE_DIR"); ?>macao-buggies/dirty-road.jpg" alt="Macao Buggies" />
+              </div>
+            </a>
           </div>
           <div class="caption">
-            <h4>Jeep Safari</h4>
-            <p>Leave the resort-lined beaches of Punta Cana</p>
-            <p><a href="/jeep-safari/" class="btn btn-block btn-danger">Details</a></p>
+            <h4>Check out our Buggies! </h4>
+            <p>Book Early so you don't Miss Out!</p>
+            <p><a href="/macao-buggies/" class="btn btn-block btn-danger">Details</a></p>
           </div>
-          <!--/center_it-->
         </div>
-        <!--/thumbnail-->
       </div>
-      <!--/span4-->
 
       <div class="col-12 col-md-4">
         <div class="thumbnail">
-          <div class="center_it"><a href="/imagen-disco-caribbeandream/"><img
-                src="<?php echo constant("PRODUCT_IMAGE_DIR"); ?>imagine-disco-caribbeandream-flow/imagine%20(10)-sm.jpg"
-                alt="Imagine Disco" /></a></div>
-          <div class="caption">
-            <h4>Imagine Disco</h4>
-            <p>Which is known as the "The Cave"</p>
-            <p><a href="/imagen-disco-caribbeandream/" class="btn btn-block btn-danger">Details</a></p>
+          <div class="center_it">
+            <a href="/catamaran-sailing/">
+              <div style="width:100%;height:300px;display:flex;align-items:center;">
+                <img style="min-width:100%;min-height:300px;" src="<?php echo constant("PRODUCT_IMAGE_DIR"); ?>catamaran-cruise-point/tourspoint%20(1).jpg" alt="Catamaran Cruise" />
+              </div>
+            </a>
           </div>
-          <!--/center_it-->
+          <div class="caption">
+            <h4>Catamaran Cruise</h4>
+            <p>Do you know the #1 thing visitors in Punta Cana</p>
+            <p><a href="/catamaran-sailing/" class="btn btn-block btn-danger">Details</a></p>
+          </div>
         </div>
-        <!--/thumbnail-->
       </div>
+
       <div class="col-12">
         <a class="btn btn-warning btn-large pull-right" href="/excursions/all-tours/">Let's Get Started <i class="icon-play icon-white"></i> </a>
       </div>
@@ -757,18 +762,29 @@ if (sizeof($uri) > 1 && !empty($uri[1])) {
     <div class="row-new">
       <div class="col-12 col-md-4">
         <div class="thumbnail">
-          <div class="center_it"><a href="/macao-buggies/">
-              <img src="<?php echo constant("PRODUCT_IMAGE_DIR"); ?>macao-buggies/dirty-road.jpg" alt="Beach Horseback Riding" /></a></div>
+          <div class="center_it">
+            <a href="/jeep-safari/">
+              <div style="width:100%;height:300px;display:flex;align-items:center;">
+                <img style="min-width:100%;min-height:300px;" src="<?php echo constant("PRODUCT_IMAGE_DIR"); ?>jeep-safari/jeep%20(9).jpg" alt="Jeep Safari" />
+              </div>
+            </a>
+          </div>
           <div class="caption">
-            <h4>Check out our Buggies! </h4>
-            <p>Book Early so you don't Miss Out!</p>
-            <p><a href="/macao-buggies/" class="btn btn-block btn-danger">Details</a></p>
+            <h4>Jeep Safari</h4>
+            <p>Leave the resort-lined beaches of Punta Cana</p>
+            <p><a href="/jeep-safari/" class="btn btn-block btn-danger">Details</a></p>
           </div>
         </div>
       </div>
       <div class="col-12 col-md-4">
         <div class="thumbnail">
-          <div class="center_it"><a href="/SlingShot-cana-com/"><img src="<?php echo constant("PRODUCT_IMAGE_DIR"); ?>SLINGSHOT-GELLERIES-COM-G/slingshot002.jpg" alt="Slingshots" /></a></div>
+          <div class="center_it">
+            <a href="/SlingShot-cana-com/">
+              <div style="width:100%;height:300px;display:flex;align-items:center;">
+                <img style="min-width:100%;min-height:300px;" src="<?php echo constant("PRODUCT_IMAGE_DIR"); ?>SLINGSHOT-GELLERIES-COM-G/slingshot002.jpg" alt="Slingshots" />
+              </div>
+            </a>
+          </div>
           <div class="caption">
             <h4>Slingshots</h4>
             <p>eaving the Hard Rock Hotel Punta Cana</p>
@@ -778,13 +794,21 @@ if (sizeof($uri) > 1 && !empty($uri[1])) {
       </div>
       <div class="col-12 col-md-4">
         <div class="thumbnail">
-          <div class="center_it"><a href="/catamaran-sailing/"><img src="<?php echo constant("PRODUCT_IMAGE_DIR"); ?>catamaran-cruise-point/tourspoint%20(1).jpg" alt="Catamaran Cruise" /></a></div>
-          <div class="caption">
-            <h4>Catamaran Cruise</h4>
-            <p>Do you know the #1 thing visitors in Punta Cana</p>
-            <p><a href="/catamaran-sailing/" class="btn btn-block btn-danger">Details</a></p>
+          <div class="center_it">
+            <a href="/imagen-disco-caribbeandream/">
+              <div style="width:100%;height:300px;display:flex;align-items:center;">
+                <img style="min-width:100%;min-height:300px;" src="<?php echo constant("PRODUCT_IMAGE_DIR"); ?>imagine-disco-caribbeandream-flow/imagine%20(10)-sm.jpg" alt="Imagine Disco" />
+              </div>
+            </a>
           </div>
+          <div class="caption">
+            <h4>Imagine Disco</h4>
+            <p>Which is known as the "The Cave"</p>
+            <p><a href="/imagen-disco-caribbeandream/" class="btn btn-block btn-danger">Details</a></p>
+          </div>
+          <!--/center_it-->
         </div>
+        <!--/thumbnail-->
       </div>
       <div class="col-12">
         <a class="btn btn-warning btn-large pull-right" href="/excursions/all-tours/">

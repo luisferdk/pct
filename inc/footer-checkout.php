@@ -27,7 +27,7 @@ $(".chosen-select").chosen();
 
 $('.datepicker').datepicker({
   autoclose : true,
-    startDate:"+1d",
+    startDate:"+0d",
     todayBtn: true,
     multidate: false,
     todayHighlight: true,			
