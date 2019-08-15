@@ -703,8 +703,8 @@ if (sizeof($uri) > 1 && !empty($uri[1])) {
         <div class="thumbnail">
           <div class="center_it">
             <a href="/saona-island/">
-              <div style="width:100%;height:300px;display:flex;align-items:center;">
-                <img style="min-width:100%;min-height:300px;" src="<?php echo constant("PRODUCT_IMAGE_DIR"); ?>saona-island/saona-island-10.jpg" alt="Saona Island" />
+              <div style="width:100%;height:250px;display:flex;align-items:center;overflow:hidden;">
+                <img style="min-height:100%;" src="<?php echo constant("PRODUCT_IMAGE_DIR"); ?>saona-island/saona-island-10.jpg" alt="Saona Island" />
               </div>
             </a>
           </div>
@@ -720,8 +720,8 @@ if (sizeof($uri) > 1 && !empty($uri[1])) {
         <div class="thumbnail">
           <div class="center_it">
             <a href="/macao-buggies/">
-              <div style="width:100%;height:300px;display:flex;align-items:center;">
-                <img style="min-width:100%;min-height:300px;" src="<?php echo constant("PRODUCT_IMAGE_DIR"); ?>macao-buggies/dirty-road.jpg" alt="Macao Buggies" />
+              <div style="width:100%;height:250px;display:flex;align-items:center;overflow:hidden;">
+                <img style="min-height:100%;" src="<?php echo constant("PRODUCT_IMAGE_DIR"); ?>macao-buggies/dirty-road.jpg" alt="Macao Buggies" />
               </div>
             </a>
           </div>
@@ -737,8 +737,8 @@ if (sizeof($uri) > 1 && !empty($uri[1])) {
         <div class="thumbnail">
           <div class="center_it">
             <a href="/catamaran-sailing/">
-              <div style="width:100%;height:300px;display:flex;align-items:center;">
-                <img style="min-width:100%;min-height:300px;" src="<?php echo constant("PRODUCT_IMAGE_DIR"); ?>catamaran-cruise-point/tourspoint%20(1).jpg" alt="Catamaran Cruise" />
+              <div style="width:100%;height:250px;display:flex;align-items:center;overflow:hidden;">
+                <img style="min-height:100%;" src="<?php echo constant("PRODUCT_IMAGE_DIR"); ?>catamaran-cruise-point/tourspoint%20(1).jpg" alt="Catamaran Cruise" />
               </div>
             </a>
           </div>
@@ -763,25 +763,9 @@ if (sizeof($uri) > 1 && !empty($uri[1])) {
       <div class="col-12 col-md-4">
         <div class="thumbnail">
           <div class="center_it">
-            <a href="/jeep-safari/">
-              <div style="width:100%;height:300px;display:flex;align-items:center;">
-                <img style="min-width:100%;min-height:300px;" src="<?php echo constant("PRODUCT_IMAGE_DIR"); ?>jeep-safari/jeep%20(9).jpg" alt="Jeep Safari" />
-              </div>
-            </a>
-          </div>
-          <div class="caption">
-            <h4>Jeep Safari</h4>
-            <p>Leave the resort-lined beaches of Punta Cana</p>
-            <p><a href="/jeep-safari/" class="btn btn-block btn-danger">Details</a></p>
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-md-4">
-        <div class="thumbnail">
-          <div class="center_it">
             <a href="/SlingShot-cana-com/">
-              <div style="width:100%;height:300px;display:flex;align-items:center;">
-                <img style="min-width:100%;min-height:300px;" src="<?php echo constant("PRODUCT_IMAGE_DIR"); ?>SLINGSHOT-GELLERIES-COM-G/slingshot002.jpg" alt="Slingshots" />
+              <div style="width:100%;height:250px;display:flex;align-items:center;overflow:hidden;">
+                <img style="min-height:100%;" src="<?php echo constant("PRODUCT_IMAGE_DIR"); ?>SLINGSHOT-GELLERIES-COM-G/slingshot002.jpg" alt="Slingshots" />
               </div>
             </a>
           </div>
@@ -795,9 +779,25 @@ if (sizeof($uri) > 1 && !empty($uri[1])) {
       <div class="col-12 col-md-4">
         <div class="thumbnail">
           <div class="center_it">
+            <a href="/jeep-safari/">
+              <div style="width:100%;height:250px;display:flex;align-items:center;overflow:hidden;">
+                <img style="min-height:100%;" src="<?php echo constant("PRODUCT_IMAGE_DIR"); ?>jeep-safari/jeep%20(9).jpg" alt="Jeep Safari" />
+              </div>
+            </a>
+          </div>
+          <div class="caption">
+            <h4>Jeep Safari</h4>
+            <p>Leave the resort-lined beaches of Punta Cana</p>
+            <p><a href="/jeep-safari/" class="btn btn-block btn-danger">Details</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-4">
+        <div class="thumbnail">
+          <div class="center_it">
             <a href="/imagen-disco-caribbeandream/">
-              <div style="width:100%;height:300px;display:flex;align-items:center;">
-                <img style="min-width:100%;min-height:300px;" src="<?php echo constant("PRODUCT_IMAGE_DIR"); ?>imagine-disco-caribbeandream-flow/imagine%20(10)-sm.jpg" alt="Imagine Disco" />
+              <div style="width:100%;height:250px;display:flex;align-items:center;overflow:hidden;">
+                <img style="min-height:100%;" src="<?php echo constant("PRODUCT_IMAGE_DIR"); ?>imagine-disco-caribbeandream-flow/imagine%20(10)-sm.jpg" alt="Imagine Disco" />
               </div>
             </a>
           </div>
