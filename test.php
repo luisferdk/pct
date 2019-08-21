@@ -771,7 +771,7 @@ $('.revstar').raty({
 
 $('.datepicker').datepicker({
   format: 'mm-dd-yyyy',
-    startDate:"+0d",
+    startDate:"+1d",
     todayBtn: false,
     multidate: false,
     autoclose: true,

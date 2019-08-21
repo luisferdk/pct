@@ -174,7 +174,7 @@ if (sizeof($uri) > 1 && !empty($uri[1])) {
     <link rel="alternate" href="http://puntacanatours.com<?php echo $_SERVER['REQUEST_URI']; ?>" hreflang="en-do" />
     <link rel="alternate" href="http://puntacanatours.com<?php echo $_SERVER['REQUEST_URI']; ?>" hreflang="x-default" />
     <link href="/css/compress.min.css?v=6" rel="stylesheet">
-    <link href="/css/pct.css?v=8" rel="stylesheet">
+    <link href="/css/pct.css?v=7?v=6" rel="stylesheet">
     <!--[if lt IE 9]>
           <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
