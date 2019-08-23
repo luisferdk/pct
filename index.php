@@ -417,17 +417,17 @@ if (sizeof($uri) > 1 && !empty($uri[1])) {
             <button class="btn" type="button"><i class="fa fa-search"></i> Search</button>
           </div> -->
           <ul class="nav nav-tabs mb-0">
-            <li class="active"><a href="#tab1" data-toggle="tab">Tours</a></li>
-            <li class=""><a href="#tab2" data-toggle="tab">Transfers</a></li>
+            <li class="active"><a href="#tab1" data-toggle="tab">Экскурсии</a></li>
+            <li class=""><a href="#tab2" data-toggle="tab">переводы</a></li>
           </ul>
           <div class="tab-content">
             <div class="tab-pane active" id="tab1">
               <div class="container-new-fluid">
                 <form class="row-new" method="POST" action="/redirect.php">
                   <div class="col-md-5 col-12 mb-1">
-                    <label for="">Category</label>
+                    <label for="">категория</label>
                     <select name="category" class="form-control">
-                      <option value disabled selected>Choose one</option>
+                      <option value disabled selected>Выбери один</option>
                       <option value="day-tours">Day Tours</option>
                       <option value="water-tours">Water</option>
                       <option value="adventure-tours">Adventures </option>
@@ -442,9 +442,9 @@ if (sizeof($uri) > 1 && !empty($uri[1])) {
                     </select>
                   </div>
                   <div class="col-md-5 col-12 mb-1">
-                    <label for="">Tour</label>
+                    <label for="">экскурсия</label>
                     <select name="tour" class="form-control">
-                      <option value disabled selected>Choose one</option>
+                      <option value disabled selected>Выбери один</option>
                       <?php
                       $sql = "select * FROM tours_v2 WHERE v_site = 3";
                       $res = mysql_query($sql) or die(mysql_error());
@@ -455,7 +455,7 @@ if (sizeof($uri) > 1 && !empty($uri[1])) {
                     </select>
                   </div>
                   <div class="col-12 col-md-2">
-                    <button class="col-12 btn btn-warning" type="submit"><i class="fa fa-search"></i> Search</button>
+                    <button class="col-12 btn btn-warning" type="submit"><i class="fa fa-search"></i> Поиск</button>
                   </div>
                 </form>
               </div>
@@ -466,7 +466,7 @@ if (sizeof($uri) > 1 && !empty($uri[1])) {
                   <div class="row-new">
                     <div class="col-12 mb-1">
                       <div class="row-new">
-                        <label class="mr-1" style="margin-left:2em;margin-right:1em;">Type of Transfer: </label>
+                        <label class="mr-1" style="margin-left:2em;margin-right:1em;">Тип трансфера: </label>
                         <label class="radio mr-1">
                           <input type="radio" name="transfer" value="1" checked>
                           Round Trip
@@ -486,7 +486,7 @@ if (sizeof($uri) > 1 && !empty($uri[1])) {
                   </div>
                   <div class="row-new">
                     <div class="col-md-3 col-6">
-                      <label>Hotel</label>
+                      <label>Гостиница</label>
                       <select id="hotel" name="hotel" data-placeholder="Hotel for Pickup" class="form-control" required>
                         <option value=""></option>
                         <optgroup label="Punta Cana">
@@ -598,7 +598,7 @@ if (sizeof($uri) > 1 && !empty($uri[1])) {
                       </select>
                     </div>
                     <div class="col-md-3 col-6">
-                      <label>Passengers</label>
+                      <label>Пассажиры</label>
                       <select name="pax" data-placeholder="Passengers" class="input-xlarge form-control" data-required="true">
                         <option value=""></option>
                         <option value="1">1</option>
@@ -610,7 +610,7 @@ if (sizeof($uri) > 1 && !empty($uri[1])) {
                       </select>
                     </div>
                     <div class="col-md-3 col-6">
-                      <label>Airport</label>
+                      <label>аэропорт</label>
                       <select name="airport" data-placeholder="What Airport" class="input-xlarge form-control" data-required="true">
                         <option value=""></option>
                         <option value="puj" selected>Punta Cana (PUJ)</option>
@@ -619,7 +619,7 @@ if (sizeof($uri) > 1 && !empty($uri[1])) {
                       </select>
                     </div>
                     <div class="col-md-3 col-6">
-                      <button type="submit" class="col-12 btn btn-warning">Next</button>
+                      <button type="submit" class="col-12 btn btn-warning">следующий</button>
                     </div>
                   </div>
                 </div>
@@ -636,16 +636,16 @@ if (sizeof($uri) > 1 && !empty($uri[1])) {
         <img class="img-responsive" src="/img/callnow.png" alt="">
       </div>
       <div class="col-4 col-md-2 text-center">
-        <p>Toll free from USA & Canada</p>
+        <p>Бесплатный звонок из США и Канады</p>
         <h4>844-DR-TOURS</h4>
       </div>
       <div class="col-4 col-md-2 text-center">
-        <p>Dominican Republic & Other Countries</p>
+        <p>Доминиканская Республика и другие страны</p>
         <h4>829 961-4829</h4>
       </div>
       <div class="col-4 col-md-2 text-center">
         <div class="row">
-          <p>We accept all payment forms</p>
+          <p>Мы принимаем все формы оплаты</p>
           <img class="img-responsive" src="/img/caribbeandream-payment-circle.png" alt="caribbeandream-payment-circle">
         </div>
       </div>
@@ -663,13 +663,13 @@ if (sizeof($uri) > 1 && !empty($uri[1])) {
     <div class="row-new mt-3 book-before">
       <div class="col-lg-6 col-md-12 pt-2 book-before-fondo">
         <div class="row-new">
-          <h1 class="col-12 m-0 mb-1">Book early so you don't miss out!</h1>
+          <h1 class="col-12 m-0 mb-1">КНИГА РАНЬШЕ, ЧТО ВЫ НЕ ПРОПУСТИТЕ!</h1>
           <p class="col-10 offset-1 tex-center">
-            Caribbean Dream offers the best selection of Punta Cana excursions at the most competitive prices. Customer service is our focus and unforgettable experiences are what we offer!
+          Caribbean Dream предлагает лучший выбор экскурсий в Пунта-Кана по самым конкурентоспособным ценам. Обслуживание клиентов - это наше внимание, а незабываемые впечатления - это то, что мы предлагаем!
             <br><br>
-            Find your perfect Punta Cana tour with Caribbean Dream!
+            Найдите свой идеальный тур по Пунта-Кана с Caribbean Dream!
             <br><br>
-            Punta Cana is your gateway to magical adventure tours in the Caribbean. Fly high above the forest canopy on a zip-line adventure or swim with dolphins for an incredible experience you will never forget. Go for a ride in your own speed boat off the tropical shores of Playa Bavaro, or just relax in a Spa Filled Adventure.
+            Пунта Кана - это ваши ворота в волшебные приключенческие туры по Карибам. Летите высоко над пологом леса на приключениях на молнии или плавайте с дельфинами, чтобы получить невероятные впечатления, которые вы никогда не забудете. Прокатитесь на своем скоростном катере у тропических берегов Плайя Баваро или просто отдохните в Spa Filled Adventure.
           </p>
         </div>
       </div>
@@ -704,9 +704,9 @@ if (sizeof($uri) > 1 && !empty($uri[1])) {
             </a>
           </div>
           <div class="caption">
-            <h4>Saona Island</h4>
-            <p>The Caribbean Sea, waist-deep sandbar!</p>
-            <p><a href="/saona-island/" class="btn btn-block btn-danger">Details</a></p>
+            <h4>Остров Саона</h4>
+            <p>Карибское море, по пояс песочница!</p>
+            <p><a href="/saona-island/" class="btn btn-block btn-danger">подробности</a></p>
           </div>
         </div>
       </div>
@@ -721,9 +721,9 @@ if (sizeof($uri) > 1 && !empty($uri[1])) {
             </a>
           </div>
           <div class="caption">
-            <h4>Check out our Buggies! </h4>
-            <p>Book Early so you don't Miss Out!</p>
-            <p><a href="/macao-buggies/" class="btn btn-block btn-danger">Details</a></p>
+            <h4>Багги</h4>
+            <p>Посетите Пляж Макао</p>
+            <p><a href="/macao-buggies/" class="btn btn-block btn-danger">подробности</a></p>
           </div>
         </div>
       </div>
@@ -738,22 +738,22 @@ if (sizeof($uri) > 1 && !empty($uri[1])) {
             </a>
           </div>
           <div class="caption">
-            <h4>Catamaran Cruise</h4>
-            <p>Do you know the #1 thing visitors in Punta Cana</p>
-            <p><a href="/catamaran-sailing/" class="btn btn-block btn-danger">Details</a></p>
+            <h4>Катамаран Круиз</h4>
+            <p>Знаете ли вы, что посетители № 1 в Пунта-Кане</p>
+            <p><a href="/catamaran-sailing/" class="btn btn-block btn-danger">подробности</a></p>
           </div>
         </div>
       </div>
 
       <div class="col-12">
-        <a class="btn btn-warning btn-large pull-right" href="/excursions/all-tours/">Let's Get Started <i class="icon-play icon-white"></i> </a>
+        <a class="btn btn-warning btn-large pull-right" href="/excursions/all-tours/">Давайте начнем <i class="icon-play icon-white"></i> </a>
       </div>
     </div>
   </div>
 
 
   <div class="container-new mt-1">
-    <h1>Exclusive Excursions</h1>
+    <h1>Эксклюзивные Экскурсии</h1>
     <div class="row-new">
       <div class="col-12 col-md-4">
         <div class="thumbnail">
@@ -765,9 +765,9 @@ if (sizeof($uri) > 1 && !empty($uri[1])) {
             </a>
           </div>
           <div class="caption">
-            <h4>Slingshots</h4>
-            <p>eaving the Hard Rock Hotel Punta Cana</p>
-            <p><a href="/SlingShot-cana-com/" class="btn btn-block btn-danger">Details</a></p>
+            <h4>Рогатки</h4>
+            <p>Отель Хард Рок Пунта Кана</p>
+            <p><a href="/SlingShot-cana-com/" class="btn btn-block btn-danger">подробности</a></p>
           </div>
         </div>
       </div>
@@ -781,9 +781,9 @@ if (sizeof($uri) > 1 && !empty($uri[1])) {
             </a>
           </div>
           <div class="caption">
-            <h4>Jeep Safari</h4>
-            <p>Leave the resort-lined beaches of Punta Cana</p>
-            <p><a href="/jeep-safari/" class="btn btn-block btn-danger">Details</a></p>
+            <h4>Джип Сафари</h4>
+            <p>Оставьте курортные пляжи Пунта-Кана</p>
+            <p><a href="/jeep-safari/" class="btn btn-block btn-danger">подробности</a></p>
           </div>
         </div>
       </div>
@@ -797,9 +797,9 @@ if (sizeof($uri) > 1 && !empty($uri[1])) {
             </a>
           </div>
           <div class="caption">
-            <h4>Imagine Disco</h4>
-            <p>Which is known as the "The Cave"</p>
-            <p><a href="/imagen-disco-caribbeandream/" class="btn btn-block btn-danger">Details</a></p>
+            <h4>Представь себе диско</h4>
+            <p>Который известен как "Пещера"</p>
+            <p><a href="/imagen-disco-caribbeandream/" class="btn btn-block btn-danger">подробности</a></p>
           </div>
           <!--/center_it-->
         </div>
@@ -807,7 +807,7 @@ if (sizeof($uri) > 1 && !empty($uri[1])) {
       </div>
       <div class="col-12">
         <a class="btn btn-warning btn-large pull-right" href="/excursions/all-tours/">
-          More Punta Cana Tours
+          Больше туров по Пунта-Кане
           <i class="icon-play icon-white"></i>
         </a>
       </div>

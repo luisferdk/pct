@@ -3,14 +3,14 @@
   <div class="container-new">
     <div class="row-new">
       <div class="col-md-4 col-12">
-        <h3 class="black">About Us</h3>
-        <p class="texto mb-0">Punta Cana Tours is owned and operated by Caribbean Dream, a tour operator based in Punta Cana, Dominican Republic. </p>
-        <a href="/about-us/" class="mt-1 link">Read More</a>
+        <h3 class="black">Насчет нас</h3>
+        <p class="texto mb-0">Punta Cana Tours принадлежит и управляется компанией Caribbean Dream, туроператором, базирующейся в Пунта-Кана, Доминиканская Республика.</p>
+        <a href="/about-us/" class="mt-1 link">Прочитайте больше</a>
       </div>
       <div class="col-md-4 col-12">
-        <h3 class="black">Guarantee</h3>
-        <p class="texto mb-0">Your vacation time is valuable and we want you to participate in all the fun Punta Cana Tours you want, when you want.</p>
-        <a href="/guarantee/" class="mt-1 link">Read More</a>
+        <h3 class="black">гарантия</h3>
+        <p class="texto mb-0">Ваше время отпуска ценно, и мы хотим, чтобы вы участвовали во всех веселых турах по Пунта-Кане, которые вы хотите, когда захотите.</p>
+        <a href="/guarantee/" class="mt-1 link">Прочитайте больше</a>
       </div>
       <div class="col-md-4 col-12">
         <a href="tel:+18298681353" style="margin:auto;"><img class="img-fluid" style="margin:auto;" src="/img/call-dr-tours.png" alt="Call 1-829-868-1353 Today" /></a>
@@ -23,10 +23,10 @@
   <div class="container-new">
     <div class="well-footer">
       <ul class="nav nav-pills footer-links">
-          <li><a href="#"><i class="fa fa-copyright"></i> Copyright &copy; <?php echo date('Y');?> </a></li>
-          <li><a href="/guarantee/"><i class="fa fa-certificate"></i> Risk Free Guarantee</a></li>
-          <li><a href="/sitemap/"><i class="fa fa-road"></i> Site Map</a></li>
-          <li><a href="#top"><i class="fa fa-arrow-up"></i> Back to the top</a></li>
+          <li><a href="#"><i class="fa fa-copyright"></i> авторское право &copy; <?php echo date('Y');?> </a></li>
+          <li><a href="/guarantee/"><i class="fa fa-certificate"></i> Безрисковая гарантия</a></li>
+          <li><a href="/sitemap/"><i class="fa fa-road"></i> Карта сайта</a></li>
+          <li><a href="#top"><i class="fa fa-arrow-up"></i> Перейти к началу страницы</a></li>
       </ul>
     </div><!-- /well-footer -->
   </div>
