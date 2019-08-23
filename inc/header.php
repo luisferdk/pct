@@ -105,28 +105,28 @@
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown"> О НАС<b class="caret"></b></a>
           <ul class="dropdown-menu">
-            <li><a href="/about-us/">Who we Are </a></li>
-            <li><a href="/why-us/">Why Choose Us? </a></li>
-            <li><a href="/team/">Meet the Team</a></li>
+            <li><a href="/about-us/">Кто мы </a></li>
+            <li><a href="/why-us/">Почему выбрали нас? </a></li>
+            <li><a href="/team/">Встретиться с командой</a></li>
           </ul>
         </li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown"> ЭКСКУРСИИ<b class="caret"></b></a>
           <ul class="dropdown-menu">
-            <li><a href="/excursions/top-tours/">Top 5 Tours</a></li>
-            <li><a href="/excursions/all-tours/">All Tours</a></li>
+            <li><a href="/excursions/top-tours/">5 лучших экскурсий</a></li>
+            <li><a href="/excursions/all-tours/">Все туры</a></li>
             <li class="divider"></li>
-            <li><a href="/excursions/day-tours/">All Day ЭКСКУРСИИ</a></li>
-            <li><a href="/excursions/water-tours/">Water Tours</a></li>
-            <li><a href="/excursions/adventure-tours/">Adventure Tours</a></li>
-            <li><a href="/excursions/saona/">Saona Island</a></li>
-            <li><a href="/excursions/cultural-tours/">Cultural ЭКСКУРСИИ</a></li>
-            <li><a href="/excursions/kid-discounts/">Kid Discount</a></li>
-            <li><a href="/excursions/dolphin-swim/">Swim With Dolphins</a></li>
+            <li><a href="/excursions/day-tours/">Весь день ЭКСКУРСИИ</a></li>
+            <li><a href="/excursions/water-tours/">Водные Туры</a></li>
+            <li><a href="/excursions/adventure-tours/">Приключенческие туры</a></li>
+            <li><a href="/excursions/saona/">Остров Саона</a></li>
+            <li><a href="/excursions/cultural-tours/">культурный ЭКСКУРСИИ</a></li>
+            <li><a href="/excursions/kid-discounts/">Детская скидка</a></li>
+            <li><a href="/excursions/dolphin-swim/">Плавать с дельфинами</a></li>
             <li class="divider"></li>
-            <li><a href="http://puntacanatours.es">Tours en Español</a></li>
-            <li><a href="http://puntacanayachts.com">Private Boat Rentals</a></li>
-            <li><a href="http://puntacanagroups.com">Group Tours</a></li>
+            <li><a href="http://puntacanatours.es">Туры на испанском</a></li>
+            <li><a href="http://puntacanayachts.com">Аренда частных лодок</a></li>
+            <li><a href="http://puntacanagroups.com">Групповые туры</a></li>
           </ul>
         </li>
         <li><a href="/transportation/">ТРАНСФЕР В АЭРОПОРТ</a></li>

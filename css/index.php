@@ -457,7 +457,7 @@ if (sizeof($uri) > 1 && !empty($uri[1])) {
                     <select name="tour" class="form-control chosen-select form-control">
                       <option value disabled selected>Choose one</option>
                       <?php
-                      $sql = "select * FROM tours_v2 WHERE v_site = 3";
+                      $sql = "select * FROM tours_v2 WHERE v_site = 24";
                       $res = mysql_query($sql) or die(mysql_error());
                       while ($row = MYSQL_FETCH_ARRAY($res)) {
                         echo "<option value=" . $row['t_url'] . ">" . $row['t_name'] . "</option>";
