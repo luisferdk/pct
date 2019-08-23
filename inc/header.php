@@ -1,8 +1,8 @@
 <header class="row-fluid header-2" style="display:flex;align-items:center;justify-content:center;">
   <div class="col-10 text-center">
-    <strong><i class="fa fa-phone-square"></i> CALL US NOW! <br></strong>
-    <span class="visible-lg">TOLL FREE FROM USA & CANADA 844-DR-TOURS DOMINICAN REPUBLIC & OTHER COUNTRIES 829 961-4829</span>
-    <span class="hide-lg">844-DR-TOURS <br> 829 961-4829</span>
+    <strong><i class="fa fa-phone-square"></i> Звоните нам сейчас! <br></strong>
+    <span class="visible-lg">TБЕСПЛАТНО ИЗ США И КАНАДЫ 844-DR-TOURS ДОМИНИКАНСКАЯ РЕСПУБЛИКА И ДРУГИЕ СТРАНЫ 829 961-4829</span>
+    <span class="hide-lg">829 961-4829</span>
   </div>
   <a class="idioma" href="https://puntacanatours.es">
     <img src="/img/spain.png" alt="">
@@ -55,9 +55,9 @@
       <!-- Everything you want hidden at 940px or less, place within here -->
       <div class="nav-collapse collapse">
         <ul class="nav menu">
-          <li class="active"><a href="/">Home</a></li>
+          <li class="active"><a href="/">ГЛАВНАЯ</a></li>
           <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown"> About Us<b class="caret"></b></a>
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown"> О НАС<b class="caret"></b></a>
             <ul class="dropdown-menu">
               <li><a href="/about-us/">Who we Are </a></li>
               <li><a href="/why-us/">Why Choose Us? </a></li>
@@ -65,16 +65,16 @@
             </ul>
           </li>
           <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Excursions<b class="caret"></b></a>
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">ЭКСКУРСИИ<b class="caret"></b></a>
             <ul class="dropdown-menu">
               <li><a href="/excursions/top-tours/">Top 5 Tours</a></li>
               <li><a href="/excursions/all-tours/">All Tours</a></li>
               <li class="divider"></li>
-              <li><a href="/excursions/day-tours/">All Day Excursions</a></li>
+              <li><a href="/excursions/day-tours/">All Day ЭКСКУРСИИ</a></li>
               <li><a href="/excursions/water-tours/">Water Tours</a></li>
               <li><a href="/excursions/adventure-tours/">Adventure Tours</a></li>
               <li><a href="/excursions/saona/">Saona Island</a></li>
-              <li><a href="/excursions/cultural-tours/">Cultural Excursions</a></li>
+              <li><a href="/excursions/cultural-tours/">Cultural ЭКСКУРСИИ</a></li>
               <li><a href="/excursions/kid-discounts/">Kid Discount</a></li>
               <li><a href="/excursions/dolphin-swim/">Swim With Dolphins</a></li>
               <li class="divider"></li>
@@ -83,10 +83,10 @@
               <li><a href="http://puntacanagroups.com">Group Tours</a></li>
             </ul>
           </li>
-          <li><a href="/transportation/">Airport Pickup</a></li>
-          <li><a href="/reviews/">Reviews</a></li>
-          <li><a href="/contact/">Contact</a></li>
-          <li><a href="/excursions/combos/">Combos</a></li>
+          <li><a href="/transportation/">ТРАНСФЕР В АЭРОПОРТ</a></li>
+          <li><a href="/reviews/">ОТЗЫВЫ</a></li>
+          <li><a href="/contact/">НАШИ КОНТАКТЫ</a></li>
+          <li><a href="/excursions/combos/">ПАКЕТНЫЕ ТУРЫ</a></li>
         </ul>
       </div>
  
@@ -101,9 +101,9 @@
         <img src="//puntacanatours-caribbeandream.netdna-ssl.com/img/Caribbean-Dream.png" height="100px" class="logo" alt="Punta Cana Tours" />
       </a>
       <ul class="nav menu">
-        <li class="active "><a href="/">Home</a></li>
+        <li class="active "><a href="/">ГЛАВНАЯ</a></li>
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown"> About Us<b class="caret"></b></a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown"> О НАС<b class="caret"></b></a>
           <ul class="dropdown-menu">
             <li><a href="/about-us/">Who we Are </a></li>
             <li><a href="/why-us/">Why Choose Us? </a></li>
@@ -111,16 +111,16 @@
           </ul>
         </li>
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Excursions<b class="caret"></b></a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown"> ЭКСКУРСИИ<b class="caret"></b></a>
           <ul class="dropdown-menu">
             <li><a href="/excursions/top-tours/">Top 5 Tours</a></li>
             <li><a href="/excursions/all-tours/">All Tours</a></li>
             <li class="divider"></li>
-            <li><a href="/excursions/day-tours/">All Day Excursions</a></li>
+            <li><a href="/excursions/day-tours/">All Day ЭКСКУРСИИ</a></li>
             <li><a href="/excursions/water-tours/">Water Tours</a></li>
             <li><a href="/excursions/adventure-tours/">Adventure Tours</a></li>
             <li><a href="/excursions/saona/">Saona Island</a></li>
-            <li><a href="/excursions/cultural-tours/">Cultural Excursions</a></li>
+            <li><a href="/excursions/cultural-tours/">Cultural ЭКСКУРСИИ</a></li>
             <li><a href="/excursions/kid-discounts/">Kid Discount</a></li>
             <li><a href="/excursions/dolphin-swim/">Swim With Dolphins</a></li>
             <li class="divider"></li>
@@ -129,10 +129,10 @@
             <li><a href="http://puntacanagroups.com">Group Tours</a></li>
           </ul>
         </li>
-        <li><a href="/transportation/">Airport Pickup</a></li>
-        <li><a href="/reviews/">Reviews</a></li>
-        <li><a href="/contact/">Contact</a></li>
-        <li><a href="/excursions/combos/">Combos</a></li>
+        <li><a href="/transportation/">ТРАНСФЕР В АЭРОПОРТ</a></li>
+        <li><a href="/reviews/">ОТЗЫВЫ</a></li>
+        <li><a href="/contact/">НАШИ КОНТАКТЫ</a></li>
+        <li><a href="/excursions/combos/">ПАКЕТНЫЕ ТУРЫ</a></li>
       </ul>
       <div class="brand">
         <ul class="nav pull-right">

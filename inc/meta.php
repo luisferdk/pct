@@ -1,14 +1,15 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" dir="ltr">
+<html lang="ru">
   <head>
   <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="The BEST Tours in Punta Cana!  Best Selection, Best Prices, Best Guarantee, Best Reviews! Dont take our word for it, listen to our Customers! CLICK HERE" />
   <meta name="keywords" content="excursions, tours, punta cana, dominican, vacation, resort, bavaro, caribbean" />
   <meta name="robots" content="index, follow" />
   <meta name="geo.region" content="DO-11" />
   <meta name="geo.placename" content="Punta Cana" />
-  <title>Punta Cana Tours | Excursions &amp; Things To Do</title>
+  <title>Пунта Кана Туры | Экскурсии и Список задач</title>
   <link rel="canonical" href="http://puntacanatours.com<?php echo $_SERVER['REQUEST_URI']; ?>">
   <link rel="alternate" href="http://puntacanatours.com<?php echo $_SERVER['REQUEST_URI']; ?>" hreflang="en" />
   <link rel="alternate" href="http://puntacanatours.com<?php echo $_SERVER['REQUEST_URI']; ?>" hreflang="en-us" />

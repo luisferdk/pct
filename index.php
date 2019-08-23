@@ -682,23 +682,18 @@ if (sizeof($uri) > 1 && !empty($uri[1])) {
   <div class="container-new mt-2">
     <div class="row-new">
     <a href="/macao-buggies/">
-      <h1>Enjoy Offroad Adventures</h1>
+      <h1>НАСЛАЖДАЙТЕСЬ НОВЫМИ ПРИКЛЮЧЕНИЯМИ!</h1>
     </a>
-    <p>Caribbean Dream offers the best selection of Punta Cana excursions at the most competitive prices. Customer
-      service is our focus and unforgettable experiences are what we offer!</p>
-    <p>Find your perfect Punta Cana tour with Caribbean Dream!</p>
-    <p>Punta Cana is your gateway to magical adventure tours in the Caribbean. Fly high above the forest
-      canopy on a <a href="zipline-canopy-adventure/">zip-line adventure</a> or <a href="/excursions/dolphin-swim/">swim
-        with dolphins</a> for an incredible experience you will never
-      forget. Go for a ride in your own <a href="bavaro-splash-speed-boats/">speed boat</a> off the tropical
-      shores of Playa Bavaro, or just relax in a <a href="dr-fish-ocean-spa/">Spa Filled Adventure</a></p>
-    <p>Browse, Book, Relax!</p>
+    <p>Наша компания «Карибская мечта» предлагает лучший выбор экскурсий по самым низким ценам. Качественное обслуживание клиентов и ваши незабываемые впечатления  – наша главная цель. С нами вы найдете и воплотите в жизнь идеальные маршруты в Доминиканской Республике! </p>
+    <p>Экскурсионные программы в Доминикане способны удовлетворить даже самого искушенного путешественника. Хотите поплавать с морскими звездами и увидеть своими глазами любовные игры китов? Острова Саона и Самана – обязательны к посещению. Любителям адреналина - заготовки от компании «Карибская мечта» на любой вкус: порулить вертолетом вдоль бирюзы океана в Пунта Кана, спуститься с 27 водопадов в национальном парке, заглянуть в глаза крокодилу на озере Энрикийо, или полетать над джунглями по канатным дорогам.</p>
+    <p>Противникам ленивого отдыха всегда найдется альтернатива в виде серфинга, дайвинга или рыбалки. Фанатов братьев наших меньших ждут многочисленные парки, где можно покормить с рук экзотических животных и научить попугаев говорить: «Привет», озеро с розовыми фламинго, прогулка на лошадях, поцелуи дельфинов. После насыщенных экскурсионных дней вы сможете расслабиться в «СПА Файлед Адвенчур».</p>
+    <p>Выбирайте, бронируйте, отдыхайте!</p>
     </div>
   </div>
   
   <div class="container-new mt-1">
     <div class="row-new">
-      <h1 class="col-12">Top 3 Excursions</h1>
+      <h1 class="col-12">ТОП 3 ЭКСКУРСИИ</h1>
       <div class="col-12 col-md-4">
         <div class="thumbnail">
           <div class="center_it">
