@@ -1,0 +1,24 @@
+[22-Jul-2018 03:15:35 UTC] PHP Warning:  mysql_query(): Access denied for user 'pctouren'@'localhost' (using password: NO) in /home/pctouren/public_html/inc/sidebar_tour.php on line 22
+[22-Jul-2018 03:15:35 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/pctouren/public_html/inc/sidebar_tour.php on line 22
+[22-Jul-2018 03:15:37 UTC] PHP Fatal error:  Call to undefined function getCartTotal() in /home/pctouren/public_html/inc/sidebar-checkout.php on line 22
+[22-Jul-2018 03:16:02 UTC] PHP Warning:  require_once(inc/config.php): failed to open stream: No such file or directory in /home/pctouren/public_html/inc/confirmation_email.php on line 3
+[22-Jul-2018 03:16:02 UTC] PHP Fatal error:  require_once(): Failed opening required 'inc/config.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/pctouren/public_html/inc/confirmation_email.php on line 3
+[22-Jul-2018 03:16:10 UTC] PHP Fatal error:  Call to undefined function getItemCount() in /home/pctouren/public_html/inc/header.php on line 18
+[22-Jul-2018 03:16:13 UTC] PHP Warning:  mysql_query(): Access denied for user 'pctouren'@'localhost' (using password: NO) in /home/pctouren/public_html/inc/menu.php on line 5
+[22-Jul-2018 03:16:13 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/pctouren/public_html/inc/menu.php on line 5
+[02-Jul-2019 19:57:09 UTC] PHP Warning:  require_once(inc/config.php): failed to open stream: No such file or directory in /home/pctouren/public_html/inc/confirmation_email.php on line 3
+[02-Jul-2019 19:57:09 UTC] PHP Fatal error:  require_once(): Failed opening required 'inc/config.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/pctouren/public_html/inc/confirmation_email.php on line 3
+[02-Jul-2019 19:57:10 UTC] PHP Warning:  require_once(inc/config.php): failed to open stream: No such file or directory in /home/pctouren/public_html/inc/confirmation_email.php on line 3
+[02-Jul-2019 19:57:10 UTC] PHP Fatal error:  require_once(): Failed opening required 'inc/config.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/pctouren/public_html/inc/confirmation_email.php on line 3
+[02-Jul-2019 19:57:11 UTC] PHP Fatal error:  Call to undefined function getitemcount() in /home/pctouren/public_html/inc/header.php on line 27
+[02-Jul-2019 19:57:11 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/pctouren/public_html/inc/menu.php on line 5
+[02-Jul-2019 19:57:11 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/pctouren/public_html/inc/menu.php on line 5
+[02-Jul-2019 19:57:11 UTC] PHP Fatal error:  Call to undefined function getitemcount() in /home/pctouren/public_html/inc/header.php on line 27
+[02-Jul-2019 19:57:12 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/pctouren/public_html/inc/menu.php on line 5
+[02-Jul-2019 19:57:12 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/pctouren/public_html/inc/menu.php on line 5
+[02-Jul-2019 19:57:14 UTC] PHP Fatal error:  Call to undefined function getcarttotal() in /home/pctouren/public_html/inc/sidebar-checkout.php on line 22
+[02-Jul-2019 19:57:14 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/pctouren/public_html/inc/sidebar_tour.php on line 21
+[02-Jul-2019 19:57:14 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/pctouren/public_html/inc/sidebar_tour.php on line 21
+[02-Jul-2019 19:57:14 UTC] PHP Fatal error:  Call to undefined function getcarttotal() in /home/pctouren/public_html/inc/sidebar-checkout.php on line 22
+[02-Jul-2019 19:57:14 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/pctouren/public_html/inc/sidebar_tour.php on line 21
+[02-Jul-2019 19:57:14 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/pctouren/public_html/inc/sidebar_tour.php on line 21
