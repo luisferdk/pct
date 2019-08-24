@@ -229,8 +229,8 @@ if (sizeof($uri) > 1 && !empty($uri[1])) {
 
   <div class="container">
     <ul class="breadcrumb">
-      <li><a href="/">Home</a> <span class="divider">></span></li>
-      <li><a href="/excursions/all-tours/">Excursions</a> <span class="divider">></span></li>
+      <li><a href="/">Главная</a> <span class="divider">></span></li>
+      <li><a href="/excursions/all-tours/">О НАС</a> <span class="divider">></span></li>
       <li class="active"><?php echo nl2br($tour_name); ?></li>
     </ul>
     <div class="row">
@@ -252,37 +252,37 @@ if (sizeof($uri) > 1 && !empty($uri[1])) {
           <?php } ?>
 
 
-          <h2>Description</h2>
+          <h2>Описание</h2>
           <p><?php echo nl2br($tour_desc); ?></p>
           <div class="row">
             <div class="span4">
 
-              <h3>Included</h3>
+              <h3>включены</h3>
               <ul class="check_list">
                 <?php echo '<li>' . str_replace(array("\r", "\n\n", "\n"), array('', "\n", "</li>\n<li>"), trim($tour_included, "\n\r")) . '</li>'; ?>
               </ul>
 
-              <h3>Not Included</h3>
+              <h3>Не включено</h3>
               <ul class="check_list">
                 <?php echo '<li>' . str_replace(array("\r", "\n\n", "\n"), array('', "\n", "</li>\n<li>"), trim($tour_not_included, "\n\r")) . '</li>'; ?>
               </ul>
             </div>
 
             <div class="span4">
-              <h3>Duration</h3>
+              <h3>продолжительность</h3>
               <p><?php echo nl2br($tour_duration); ?></p>
 
-              <h3>Hours</h3>
-              <p><?php echo nl2br($tour_times); ?><br /><br /><em>"Pickup times and locations vary depending on the hotel
-                  you are staying at. We will be contacting you shortly with the exact time and pickup location"</em></p>
+              <h3>часов</h3>
+              <p><?php echo nl2br($tour_times); ?><br /><br /><em>Время и место получения автомобиля различаются в зависимости от отеля
+                  Вы остаетесь в. Мы свяжемся с вами в ближайшее время с точным временем и местом получения</em></p>
 
-              <h3>Availability</h3>
-              <p>This tour operates<br /><?php echo nl2br($tour_days); ?></p>
+              <h3>Доступность</h3>
+              <p>Этот тур действует<br /><?php echo nl2br($tour_days); ?></p>
 
-              <h3>Pickup Location</h3>
-              <p>Hotel Lobby or specified meeting point<br />
-                <em class="italics">"Pickup locations vary by hotel location<br />
-                  We'll be contacting you with the exact location"</em><br />
+              <h3>Выбрать место</h3>
+              <p>Лобби отеля или указанное место встречи<br />
+                <em class="italics">"Места получения автомобиля зависят от местоположения отеля. <br />
+                  Мы свяжемся с вами для уточнения местоположения"</em><br />
             </div>
           </div>
 
@@ -309,7 +309,7 @@ if (sizeof($uri) > 1 && !empty($uri[1])) {
           } else {
             ?>
             <a name="purchase"></a>
-            <h3>Order Now</h3>
+            <h3>Заказать сейчас</h3>
 
             <?php
             if ($tour_status != 0) {
@@ -357,8 +357,8 @@ if (sizeof($uri) > 1 && !empty($uri[1])) {
                 $row = MYSQL_FETCH_ARRAY($res);
 
                 $sql2 = "select * FROM photos 
-  WHERE gallery_id = '$tour_gallery'
-  ORDER BY picture_sortorder";
+                      WHERE gallery_id = '$tour_gallery'
+                      ORDER BY picture_sortorder";
                 $res2 = mysql_query($sql2) or die(mysql_error());
                 while ($row2 = MYSQL_FETCH_ARRAY($res2)) {
                   $picture_filename = $row2['picture_filename'];
@@ -378,11 +378,11 @@ if (sizeof($uri) > 1 && !empty($uri[1])) {
         // -------------------------------------------------
         ?>
 
-          <p>Please view our <a href="/cancellation-policy/">Cancellation Policy</a></p>
+          <p>Пожалуйста, просмотрите наш <a href="/cancellation-policy/">Политика отмены</a></p>
           <p>&nbsp;</p>
           <form action="/contact/" method="post">
             <input type="hidden" name="tour" value="<?php echo nl2br($tour_name); ?>">
-            <button type="submit" class="btn">Contact Us Now<i class="icon-chevron-right"></i></button>
+            <button type="submit" class="btn">Свяжитесь с нами сейчас<i class="icon-chevron-right"></i></button>
           </form>
 
 
@@ -428,17 +428,17 @@ if (sizeof($uri) > 1 && !empty($uri[1])) {
                     <label for="">категория</label>
                     <select name="category" class="form-control">
                       <option value disabled selected>Выбери один</option>
-                      <option value="day-tours">Day Tours</option>
-                      <option value="water-tours">Water</option>
-                      <option value="adventure-tours">Adventures </option>
-                      <option value="horseback">Horseback</option>
-                      <option value="sharks-stingrays">Sharks Stingrays</option>
-                      <option value="cultural-tours">Cultural</option>
-                      <option value="kid-discounts">Kid Discounts</option>
-                      <option value="dolphin-swim">Dolphin Swim</option>
-                      <option value="air">Air</option>
-                      <option value="top-tours">Top Tours</option>
-                      <option value="combos">Combos</option>
+                      <option value="day-tours">Дневные Туры</option>
+                      <option value="water-tours">вода</option>
+                      <option value="adventure-tours">Приключения</option>
+                      <option value="horseback">верхом</option>
+                      <option value="sharks-stingrays">Акула Скаты</option>
+                      <option value="cultural-tours">культурный</option>
+                      <option value="kid-discounts">Детские скидки</option>
+                      <option value="dolphin-swim">Дельфин плавать</option>
+                      <option value="air">Воздух</option>
+                      <option value="top-tours">Лучшие туры</option>
+                      <option value="combos">комбо</option>
                     </select>
                   </div>
                   <div class="col-md-5 col-12 mb-1">
@@ -469,17 +469,17 @@ if (sizeof($uri) > 1 && !empty($uri[1])) {
                         <label class="mr-1" style="margin-left:2em;margin-right:1em;">Тип трансфера: </label>
                         <label class="radio mr-1">
                           <input type="radio" name="transfer" value="1" checked>
-                          Round Trip
+                          Поездка туда и обратно
                         </label>
 
                         <label class="radio mr-1">
                           <input type="radio" name="transfer" value="2">
-                          One Way (Arrival)
+                          В одну сторону (прибытие)
                         </label>
 
                         <label class="radio mr-1">
                           <input type="radio" name="transfer" value="3">
-                          One Way (Departure)
+                          В одну сторону (отправление)
                         </label>
                       </div>
                     </div>
@@ -697,7 +697,7 @@ if (sizeof($uri) > 1 && !empty($uri[1])) {
       <div class="col-12 col-md-4">
         <div class="thumbnail">
           <div class="center_it">
-            <a href="/saona-island/">
+            <a href="/saona-island-ru/">
               <div style="width:100%;height:250px;display:flex;align-items:center;overflow:hidden;">
                 <img style="min-height:100%;" src="<?php echo constant("PRODUCT_IMAGE_DIR"); ?>saona-island/saona-island-10.jpg" alt="Saona Island" />
               </div>
@@ -706,7 +706,7 @@ if (sizeof($uri) > 1 && !empty($uri[1])) {
           <div class="caption">
             <h4>Остров Саона</h4>
             <p>Карибское море, по пояс песочница!</p>
-            <p><a href="/saona-island/" class="btn btn-block btn-danger">подробности</a></p>
+            <p><a href="/saona-island-ru/" class="btn btn-block btn-danger">подробности</a></p>
           </div>
         </div>
       </div>
@@ -714,7 +714,7 @@ if (sizeof($uri) > 1 && !empty($uri[1])) {
       <div class="col-12 col-md-4">
         <div class="thumbnail">
           <div class="center_it">
-            <a href="/macao-buggies/">
+            <a href="/macao-buggies-ru/">
               <div style="width:100%;height:250px;display:flex;align-items:center;overflow:hidden;">
                 <img style="min-height:100%;" src="<?php echo constant("PRODUCT_IMAGE_DIR"); ?>macao-buggies/dirty-road.jpg" alt="Macao Buggies" />
               </div>
@@ -723,7 +723,7 @@ if (sizeof($uri) > 1 && !empty($uri[1])) {
           <div class="caption">
             <h4>Багги</h4>
             <p>Посетите Пляж Макао</p>
-            <p><a href="/macao-buggies/" class="btn btn-block btn-danger">подробности</a></p>
+            <p><a href="/macao-buggies-ru/" class="btn btn-block btn-danger">подробности</a></p>
           </div>
         </div>
       </div>
@@ -731,7 +731,7 @@ if (sizeof($uri) > 1 && !empty($uri[1])) {
       <div class="col-12 col-md-4">
         <div class="thumbnail">
           <div class="center_it">
-            <a href="/catamaran-sailing/">
+            <a href="/catamaran-sailing-ru/">
               <div style="width:100%;height:250px;display:flex;align-items:center;overflow:hidden;">
                 <img style="min-height:100%;" src="<?php echo constant("PRODUCT_IMAGE_DIR"); ?>catamaran-cruise-point/tourspoint%20(1).jpg" alt="Catamaran Cruise" />
               </div>
@@ -740,7 +740,7 @@ if (sizeof($uri) > 1 && !empty($uri[1])) {
           <div class="caption">
             <h4>Катамаран Круиз</h4>
             <p>Знаете ли вы, что посетители № 1 в Пунта-Кане</p>
-            <p><a href="/catamaran-sailing/" class="btn btn-block btn-danger">подробности</a></p>
+            <p><a href="/catamaran-sailing-ru/" class="btn btn-block btn-danger">подробности</a></p>
           </div>
         </div>
       </div>
