@@ -26,8 +26,8 @@ if (sizeof($uri) > 1 && !empty($uri[2]))
 
 <div class="container">
   <ul class="breadcrumb">
-    <li><a href="/">Home</a> <span class="divider">></span></li>
-    <li><a href="/excursions/all-tours/">Excursions</a> <span class="divider">></span></li>
+    <li><a href="/">Главная</a> <span class="divider">></span></li>
+    <li><a href="/excursions/all-tours/">О НАС</a> <span class="divider">></span></li>
     <li class="active"><?php echo $cat_name; ?></li>
   </ul>
   <div class="row">
@@ -48,7 +48,7 @@ if (sizeof($uri) > 1 && !empty($uri[2]))
           </thead>
           <tbody>
             <?php
-            $sql = "SELECT *  FROM $toursTable AS t  JOIN tour_cat_prod AS r ON r.pd_id = t.t_id WHERE cat_id = $cat_id AND t_status <> 0 ORDER BY t_order ASC";
+            $sql = "SELECT *  FROM $toursTable AS t  JOIN tour_cat_prod AS r ON r.pd_id = t.t_id WHERE cat_id = $cat_id AND t_status <> 0 AND v_site=24 ORDER BY t_order ASC";
             $res = mysql_query($sql) or die(mysql_error());
             while ($row = MYSQL_FETCH_ARRAY($res)) {
               $tour_id = $row['t_id'];
